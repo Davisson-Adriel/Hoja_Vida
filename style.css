@@ -25,24 +25,19 @@ header img {
     height: 200px;
 }
 
-.contacto ul {
+.contacto ul li {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
-}
-
-ul li {
     margin-bottom:5px ;
 }
 
-.contacto h2 {
+.colum_izquierda h2 {
 
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
     letter-spacing: 2px;
     font-size: 20px;
-    
     align-items: center;
-    
 }
 
 .lineas {
@@ -57,5 +52,20 @@ ul li {
     flex: 1;
     border-bottom: 3px solid white;
     margin: 5px;
+}
+
+.referencias {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.referencias p {
+    line-height: 5px;
+}
+
+.contenedor_ref {
+    border: solid white;
+    margin: 20px;
 }
 
