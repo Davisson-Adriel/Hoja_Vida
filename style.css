@@ -28,7 +28,7 @@ header img {
 .contacto ul li {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
-    margin-bottom:5px ;
+    margin-bottom:10px ;
 }
 
 .colum_izquierda h2 {
@@ -67,6 +67,7 @@ header img {
 .contenedor_ref {
     border: solid white;
     margin: 20px;
+    padding: 10px;
 }
 
 .colum_derecha h1{
@@ -111,3 +112,20 @@ hr {
     margin: 5px;
 }
 
+.colum_derecha p {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.colum_izquierda1 {
+    flex:1;
+}
+
+.colum_derecha1 {
+    flex:1;
+}
+
+.colum_derecha1 ul li {
+
+    text-align: left;
+}
