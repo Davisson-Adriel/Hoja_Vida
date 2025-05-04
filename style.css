@@ -1,0 +1,30 @@
+.contenedor {
+    display: flex;
+}
+
+.colum_izquierda {
+    flex:1;
+    margin: 2px;
+    color: white;
+    background-color: black;
+}
+
+.colum_derecha {
+    flex:1.7;
+    margin: 2px;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+}
+
+header img {
+
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+
+
