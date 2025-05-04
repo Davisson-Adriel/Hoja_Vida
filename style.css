@@ -126,6 +126,11 @@ hr {
 }
 
 .colum_derecha1 ul li {
-
     text-align: left;
 }
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    border: black solid;
+  }
