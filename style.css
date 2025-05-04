@@ -69,3 +69,45 @@ header img {
     margin: 20px;
 }
 
+.colum_derecha h1{
+    text-align: center;
+    margin: 0;
+    font-weight: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.colum_derecha h2 {
+    
+    text-align:center;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    letter-spacing: -0.5px;
+    font-size: 25px;
+    font-weight:lighter;
+}
+
+.colum_derecha h3 {
+    
+    text-align:left;
+    margin: 5PX;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-weight:inherit;
+}
+
+hr {
+    height: 2px;          
+    background-color: black;
+    margin: 10px 0;  
+}
+
+.info {
+    text-align: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
