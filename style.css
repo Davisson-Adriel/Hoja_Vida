@@ -67,8 +67,8 @@ header img {
 
 .contenedor_ref {
     border: solid white;
-    margin: 20px;
-    padding: 10px;
+    margin: 15px;
+    padding: 5px;
 }
 
 .colum_derecha h1{
@@ -84,10 +84,11 @@ header img {
     
     text-align:center;
     margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-family:'Heartbreak', 'Arial Narrow', Arial;
     letter-spacing: -0.5px;
-    font-size: 25px;
+    font-size: 26px;
     font-weight:lighter;
+    letter-spacing: 2px;
 }
 
 .colum_derecha h3 {
@@ -97,7 +98,6 @@ header img {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
     letter-spacing: 0px;
     font-size: 18px;
-    font-weight:inherit;
 }
 
 hr {
@@ -134,4 +134,50 @@ body {
     max-width: 700px;
     margin: 0 auto;
     border: black solid;
+}
+
+.transition {
+    color: white;
+    transition: color 1s;
+}
+
+.transition:hover {
+    color:aquamarine;
+}
+
+.transitionimg {
+    border: solid 3px black;
+    transition: border 1s;
+}
+
+.transitionimg:hover {
+    border: solid 2px white;
+  }
+
+.rebote {
+display: inline-block;
+animation: rebote 1s ease-in-out;
+}
+
+@keyframes rebote {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    30% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    70% {
+        transform: translateY(-5px);
+    }
+    90% {
+        transform: translateY(0px);  
+    }
+}
+
+@font-face {
+    font-family: "Heartbreak";
+    src: url("heartbreak_2/Heartbreak.ttf") format('truetype');
   }
