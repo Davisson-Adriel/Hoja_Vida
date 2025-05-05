@@ -155,8 +155,7 @@ body {
   }
 
 .rebote {
-display: inline-block;
-animation: rebote 1s ease-in-out;
+animation: rebote 1s;
 }
 
 @keyframes rebote {
@@ -179,5 +178,5 @@ animation: rebote 1s ease-in-out;
 
 @font-face {
     font-family: "Heartbreak";
-    src: url("heartbreak_2/Heartbreak.ttf") format('truetype');
+    src: url("fonts/Heartbreak.ttf") format('truetype');
   }
