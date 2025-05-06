@@ -178,5 +178,5 @@ animation: rebote 1s;
 
 @font-face {
     font-family: "Heartbreak";
-    src: url("fonts/Heartbreak.ttf") format("truetype");
+    src: url("/fonts/Heartbreak.ttf") format("truetype");
   }
