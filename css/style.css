@@ -178,5 +178,13 @@ animation: rebote 1s;
 
 @font-face {
     font-family: "Heartbreak";
-    src: url("/fonts/Heartbreak.ttf") format("truetype");
+    src: url("Hoja_Vida/fonts/Heartbreak.ttf") format("truetype");
   }
+
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+        border: none;
+        padding: 10px;
+    }
+}
