@@ -226,7 +226,6 @@ animation: rebote 1s;
     padding: 10px 0;
     position: sticky;
     top: 0;
-
     text-align: center;
 }
 
@@ -253,4 +252,13 @@ animation: rebote 1s;
 
 [id] {
     scroll-margin-top: 80px;
+}
+
+.footer {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    margin-bottom: 30px;
 }
