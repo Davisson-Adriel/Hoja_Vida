@@ -213,6 +213,21 @@ animation: rebote 1s;
     .contenedor2, .colum_derecha1{
         margin: 0px;
     }
+
+    .rectangulo{
+        background-color: #f9f9f9;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        padding: 20px;
+        margin: 20px 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .rectangulo:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
 }
 
 @keyframes aparecerTodo {
@@ -259,6 +274,7 @@ animation: rebote 1s;
     text-align: center;
     font-size: 14px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
     margin-bottom: 30px;
 }
+
+
