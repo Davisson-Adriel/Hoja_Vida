@@ -1,17 +1,24 @@
 .contenedor {
     display: flex;
+    border: solid black;
+    margin-bottom: 30px;
+}
+
+.contenedor2 {
+    display: flex;
 }
 
 .colum_izquierda {
     flex:1;
     margin: 2px;
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .colum_derecha {
     flex:1.6;
     margin: 2px;
+
 }
 
 header {
@@ -71,7 +78,7 @@ header img {
     padding: 5px;
 }
 
-.colum_derecha h1{
+h1{
     text-align: center;
     margin: 0;
     font-weight: 10px;
@@ -80,7 +87,7 @@ header img {
     font-size: 40px;
 }
 
-.colum_derecha h2 {
+h2 {
     
     text-align:center;
     margin: 0;
@@ -133,8 +140,11 @@ hr {
 body {
     max-width: 700px;
     margin: 0 auto;
-    border: black solid 2px;
+    opacity: 0;
+    animation: aparecerTodo 1s forwards;
+    animation-delay: 1s;
 }
+
 
 .transition {
     color: white;
@@ -146,13 +156,13 @@ body {
 }
 
 .transitionimg {
-    border: solid 3px black;
+    border: solid 3px white;
     transition: border 1s;
 }
 
 .transitionimg:hover {
-    border: solid 2px white;
-  }
+    border: solid 3px black;
+}
 
 .rebote {
 animation: rebote 1s;
@@ -178,13 +188,69 @@ animation: rebote 1s;
 
 @font-face {
     font-family: "Heartbreak";
-    src: url("Hoja_Vida/fonts/Heartbreak.ttf") format("truetype");
-  }
+    src: url("/fonts/Heartbreak.ttf") format("truetype");
+}
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     body {
         max-width: 100%;
-        border: none;
         padding: 10px;
     }
+
+    .contenedor {
+        flex-direction: column-reverse;
+        border: none;
+    }
+
+    .contenedor2 {
+        flex-direction: column-reverse;
+    }
+
+    .contenedor, .colum_derecha{
+        margin-bottom: 20px;
+    }
+
+    .contenedor2, .colum_derecha1{
+        margin: 0px;
+    }
+}
+
+@keyframes aparecerTodo {
+    to {
+      opacity: 1;
+    }
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: aquamarine;
+}
+
+[id] {
+    scroll-margin-top: 80px;
 }
