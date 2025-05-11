@@ -278,4 +278,27 @@ animation: rebote 1s;
     margin-bottom: 30px;
 }
 
+.imagen {
+transition: transform 0.3s ease;
+}
 
+.imagen:hover {
+transform: scale(1.2);
+flex-wrap: wrap;
+}
+
+video {
+    width: 300px;
+    border-radius: 40px;
+}
+
+.videos {
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.videos:hover {
+transform: scale(1.2);
+flex-wrap: wrap;
+}
